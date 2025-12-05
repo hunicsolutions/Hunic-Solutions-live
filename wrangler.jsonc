@@ -1,0 +1,8 @@
+{
+  // Cloudflare Pages configuration
+  "name": "hunic-solutions-live",
+  "compatibility_date": "2025-12-04",
+  
+  // Pages-specific settings
+  "pages_build_output_dir": "dist"
+}
