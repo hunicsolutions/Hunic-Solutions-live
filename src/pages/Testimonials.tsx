@@ -1,10 +1,24 @@
 import React from 'react';
 import { testimonials } from '../data/content';
 import { Quote } from 'lucide-react';
+import { SEO } from '../components/SEO';
+import { WebPageSchema } from '../components/Schema';
 
 const Testimonials: React.FC = () => {
   return (
     <div className="bg-hunic-dark min-h-screen">
+      <SEO 
+        title="Testimonials"
+        description="Client stories and testimonials. See what industry leaders say about working with Hunic Solutions."
+        keywords="client testimonials, reviews, customer feedback, client success stories"
+        canonicalUrl="https://hunicsolutions.com/testimonials"
+      />
+      <WebPageSchema 
+        name="Testimonials - Hunic Solutions"
+        description="Client testimonials and success stories from businesses we've helped transform digitally."
+        url="https://hunicsolutions.com/testimonials"
+      />
+      
       <section className="py-20 text-center">
         <h1 className="text-5xl font-bold mb-6">Client Stories</h1>
         <p className="text-xl text-gray-400 max-w-2xl mx-auto px-4">

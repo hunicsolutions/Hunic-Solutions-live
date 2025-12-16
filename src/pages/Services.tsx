@@ -2,10 +2,24 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { services } from '../data/content';
 import { ArrowRight, CheckCircle } from 'lucide-react';
+import { SEO } from '../components/SEO';
+import { WebPageSchema } from '../components/Schema';
 
 const Services: React.FC = () => {
   return (
     <div className="bg-hunic-dark min-h-screen">
+      <SEO 
+        title="Services"
+        description="Comprehensive digital solutions engineered for modern business challenges. Custom software development, AI automation, web development, and secure hosting."
+        keywords="software development services, AI automation, web development, cloud hosting, enterprise solutions"
+        canonicalUrl="https://hunicsolutions.com/services"
+      />
+      <WebPageSchema 
+        name="Services - Hunic Solutions"
+        description="Comprehensive digital solutions including custom software development, AI automation, web development, and secure hosting services."
+        url="https://hunicsolutions.com/services"
+      />
+      
        <section className="py-20 bg-hunic-dark relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 text-white tracking-tight">Our Services</h1>

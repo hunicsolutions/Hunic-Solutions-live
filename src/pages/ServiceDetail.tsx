@@ -2,6 +2,8 @@ import React, { useEffect } from 'react';
 import { useParams, Navigate, Link } from 'react-router-dom';
 import { services } from '../data/content';
 import { Check, XCircle, ArrowRight, Layers, Cpu } from 'lucide-react';
+import { SEO } from '../components/SEO';
+import { ServiceSchema, BreadcrumbSchema } from '../components/Schema';
 
 const ServiceDetail: React.FC = () => {
   const { id } = useParams<{ id: string }>();
@@ -17,6 +19,25 @@ const ServiceDetail: React.FC = () => {
 
   return (
     <div className="bg-hunic-dark min-h-screen">
+      <SEO 
+        title={service.title}
+        description={service.shortDescription}
+        keywords={`${service.title}, software development, digital solutions`}
+        canonicalUrl={`https://hunicsolutions.com/services/${service.id}`}
+        ogImage={service.heroImage}
+      />
+      <ServiceSchema 
+        name={service.title}
+        description={service.shortDescription}
+      />
+      <BreadcrumbSchema 
+        items={[
+          { name: 'Home', url: 'https://hunicsolutions.com/' },
+          { name: 'Services', url: 'https://hunicsolutions.com/services' },
+          { name: service.title, url: `https://hunicsolutions.com/services/${service.id}` }
+        ]}
+      />
+      
       {/* Hero */}
       <section className="relative h-[60vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">

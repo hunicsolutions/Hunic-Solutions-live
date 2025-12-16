@@ -1,10 +1,24 @@
 import React from 'react';
 import { team } from '../data/content';
 import { Target, Eye, Heart } from 'lucide-react';
+import { SEO } from '../components/SEO';
+import { WebPageSchema } from '../components/Schema';
 
 const About: React.FC = () => {
   return (
     <div className="bg-hunic-dark min-h-screen">
+      <SEO 
+        title="About Us"
+        description="A collective of engineers, designers, and strategists dedicated to digital perfection. Learn about Hunic Solutions' mission and team."
+        keywords="about hunic solutions, software development team, technology partner, digital innovation"
+        canonicalUrl="https://hunicsolutions.com/about"
+      />
+      <WebPageSchema 
+        name="About Hunic Solutions"
+        description="Founded in 2018, Hunic Solutions is a technology partner that prioritizes code quality, security, and long-term scalability."
+        url="https://hunicsolutions.com/about"
+      />
+      
       {/* Header */}
       <section className="py-20 bg-gradient-to-b from-gray-900 to-hunic-dark border-b border-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

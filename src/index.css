@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --font-sans: 'Inter', sans-serif;
+    --font-mono: 'Fira Code', monospace;
+    
+    --color-hunic-dark: #0B1120;
+    --color-hunic-card: #151e32;
+    --color-hunic-cyan: #06b6d4;
+    --color-hunic-silver: #94a3b8;
+    --color-hunic-accent: #0ea5e9;
+}
+
+@layer base {
+    body {
+        background-color: #0B1120;
+        color: #f1f5f9;
+    }
+}
+
+@layer utilities {
+    .tech-grid {
+        background-size: 50px 50px;
+        background-image: 
+            linear-gradient(to right, rgba(6, 182, 212, 0.05) 1px, transparent 1px),
+            linear-gradient(to bottom, rgba(6, 182, 212, 0.05) 1px, transparent 1px);
+    }
+
+    .clip-corner {
+        clip-path: polygon(
+            0 0,
+            100% 0,
+            100% calc(100% - 20px),
+            calc(100% - 20px) 100%,
+            0 100%
+        );
+    }
+}
+
+/* Additional glow and shadow effects */
+@layer components {
+    .glow-cyan {
+        box-shadow: 0 0 20px rgba(6, 182, 212, 0.3), 0 0 40px rgba(6, 182, 212, 0.1);
+    }
+    
+    .text-glow-cyan {
+        text-shadow: 0 0 20px rgba(6, 182, 212, 0.5);
+    }
+}
