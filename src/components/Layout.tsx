@@ -37,7 +37,7 @@ const Navbar: React.FC = () => {
             <div className="w-8 h-8 bg-hunic-cyan text-hunic-dark flex items-center justify-center font-bold text-xl rounded-sm clip-corner group-hover:bg-white transition-colors">
               H
             </div>
-            <span className="text-2xl font-bold tracking-tighter text-white">HUNIC<span className="text-hunic-cyan">.</span>SOLUTIONS</span>
+            <span className="text-xl font-bold tracking-tighter text-white">HUNIC SOLUTIONS</span>
           </Link>
 
           <div className="hidden md:block">

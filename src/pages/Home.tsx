@@ -9,14 +9,14 @@ const Home: React.FC = () => {
     <>
       <SEO 
         title="Future-Proof Digital Innovation"
-        description="Hunic Solutions transforms businesses with custom software, AI automation, and cutting-edge web development. Enterprise-grade solutions for forward-thinking companies."
-        keywords="custom software development, AI automation, web development, enterprise software, digital transformation"
+        description="Hunic Solutions transforms businesses with custom software, automation, and cutting-edge web development. Enterprise-grade solutions for forward-thinking companies."
+        keywords="custom software development, automation, web development, enterprise software, digital transformation"
         canonicalUrl="https://hunicsolutions.com/"
       />
       <OrganizationSchema />
       <WebPageSchema 
         name="Hunic Solutions - Future-Proof Digital Innovation"
-        description="Transform your business with enterprise-grade software, AI automation, and high-performance digital infrastructure."
+        description="Transform your business with enterprise-grade software, automation, and high-performance digital infrastructure."
         url="https://hunicsolutions.com/"
       />
       
@@ -42,7 +42,7 @@ const Home: React.FC = () => {
               </h1>
               
               <p className="text-xl text-gray-400 max-w-lg leading-relaxed">
-                Hunic Solutions empowers forward-thinking businesses with enterprise-grade software, AI automation, and high-performance digital infrastructure.
+                Hunic Solutions empowers forward-thinking businesses with enterprise-grade software, automation, and high-performance digital infrastructure.
               </p>
               
               <div className="flex flex-wrap gap-4">
@@ -84,7 +84,7 @@ const Home: React.FC = () => {
           <div className="grid md:grid-cols-3 gap-8">
             {[
               { icon: Layers, title: 'Web Development', desc: 'Performance-obsessed websites and web apps tailored for scalability.' },
-              { icon: Zap, title: 'AI & Automation', desc: 'Intelligent algorithms to automate workflows and enhance decision making.' },
+              { icon: Zap, title: 'Automation', desc: 'Intelligent algorithms to automate workflows and enhance decision making.' },
               { icon: Shield, title: 'Secure Hosting', desc: 'Enterprise-grade infrastructure management and 24/7 security monitoring.' },
             ].map((item, i) => (
               <article key={i} className="p-8 border border-gray-800 hover:border-hunic-cyan/50 bg-hunic-card/20 transition-all duration-300 group">

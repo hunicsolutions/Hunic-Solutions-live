@@ -21,7 +21,7 @@ const Contact: React.FC = () => {
       />
       <WebPageSchema 
         name="Contact - Hunic Solutions"
-        description="Contact Hunic Solutions for software development, AI automation, and web development services."
+        description="Contact Hunic Solutions for software development, automation, and web development services."
         url="https://hunicsolutions.com/contact"
       />
       

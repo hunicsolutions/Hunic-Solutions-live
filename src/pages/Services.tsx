@@ -10,13 +10,13 @@ const Services: React.FC = () => {
     <div className="bg-hunic-dark min-h-screen">
       <SEO 
         title="Services"
-        description="Comprehensive digital solutions engineered for modern business challenges. Custom software development, AI automation, web development, and secure hosting."
-        keywords="software development services, AI automation, web development, cloud hosting, enterprise solutions"
+        description="Comprehensive digital solutions engineered for modern business challenges. Custom software development, automation, web development, and secure hosting."
+        keywords="software development services, automation, web development, cloud hosting, enterprise solutions"
         canonicalUrl="https://hunicsolutions.com/services"
       />
       <WebPageSchema 
         name="Services - Hunic Solutions"
-        description="Comprehensive digital solutions including custom software development, AI automation, web development, and secure hosting services."
+        description="Comprehensive digital solutions including custom software development, automation, web development, and secure hosting services."
         url="https://hunicsolutions.com/services"
       />
       

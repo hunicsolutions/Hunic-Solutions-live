@@ -130,32 +130,6 @@ export const services: ServiceData[] = [
       'Higher user retention rates'
     ],
     industries: ['Social Media', 'Productivity Tools', 'Entertainment']
-  },
-  {
-    id: 'ai-automation',
-    title: 'AI & Automation Solutions',
-    shortDescription: 'Leverage Machine Learning to automate intelligent tasks.',
-    fullDescription: 'Unlock the power of Artificial Intelligence. From chatbots that handle customer support to predictive analytics that forecast sales, we implement practical AI solutions that drive tangible business value.',
-    heroImage: 'https://picsum.photos/id/180/1200/600',
-    painPoints: [
-      'High customer support costs',
-      'Inability to predict market trends',
-      'Repetitive, low-value employee tasks',
-      'Unstructured data overload'
-    ],
-    features: [
-      'NLP Chatbots & Virtual Assistants',
-      'Computer Vision Integration',
-      'Predictive Analytics Models',
-      'Robotic Process Automation (RPA)'
-    ],
-    techStack: ['Python', 'TensorFlow', 'OpenAI API', 'Pandas', 'LangChain'],
-    benefits: [
-      '24/7 Customer availability',
-      'Reduce operational costs by 30%',
-      'Data-driven strategic decision making'
-    ],
-    industries: ['Customer Service', 'Retail', 'Marketing']
   }
 ];
 
@@ -200,7 +174,7 @@ export const testimonials: Testimonial[] = [
     name: 'Michael Chen',
     role: 'Founder',
     company: 'Apex Trading',
-    quote: 'The AI automation tools they built for us saved our team 40 hours a week. Truly transformative technology.',
+    quote: 'The automation tools they built for us saved our team 40 hours a week. Truly transformative technology.',
     industry: 'Finance'
   },
   {
@@ -222,8 +196,8 @@ export const team: TeamMember[] = [
   },
   {
     name: 'Samantha Vance',
-    role: 'Head of AI Research',
-    bio: 'PhD in Computer Science specializing in Machine Learning and NLP.',
+    role: 'Head of Engineering',
+    bio: 'Expert in distributed systems and scalable backend architecture.',
     image: 'https://picsum.photos/id/338/400/400'
   },
   {

@@ -11,7 +11,7 @@ export const OrganizationSchema: React.FC<OrganizationSchemaProps> = ({
     '@context': 'https://schema.org',
     '@type': type,
     name: 'Hunic Solutions',
-    description: 'Custom software development, AI automation, and cutting-edge web development services',
+    description: 'Custom software development, automation, and cutting-edge web development services',
     url: 'https://hunicsolutions.com',
     logo: 'https://hunicsolutions.com/logo.png',
     image: 'https://hunicsolutions.com/og-image.jpg',
