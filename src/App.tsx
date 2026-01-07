@@ -5,9 +5,10 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Services from './pages/Services';
 import ServiceDetail from './pages/ServiceDetail';
-import Portfolio from './pages/Portfolio';
-import Testimonials from './pages/Testimonials';
+// import Portfolio from './pages/Portfolio';
+// import Testimonials from './pages/Testimonials';
 import Contact from './pages/Contact';
+import NotFound from './pages/NotFound';
 
 const App: React.FC = () => {
   return (
@@ -18,9 +19,10 @@ const App: React.FC = () => {
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/services/:id" element={<ServiceDetail />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/testimonials" element={<Testimonials />} />
+          {/* <Route path="/portfolio" element={<Portfolio />} /> */}
+          {/* <Route path="/testimonials" element={<Testimonials />} /> */}
           <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>
     </BrowserRouter>

@@ -24,8 +24,8 @@ const Navbar: React.FC = () => {
     { name: 'Home', path: '/' },
     { name: 'About', path: '/about' },
     { name: 'Services', path: '/services' },
-    { name: 'Portfolio', path: '/portfolio' },
-    { name: 'Testimonials', path: '/testimonials' },
+    // { name: 'Portfolio', path: '/portfolio' },
+    // { name: 'Testimonials', path: '/testimonials' },
     { name: 'Contact', path: '/contact' },
   ];
 
@@ -114,8 +114,8 @@ const Footer: React.FC = () => {
             <h3 className="text-white font-bold uppercase tracking-widest mb-6 text-sm">Company</h3>
             <ul className="space-y-3 text-sm">
               <li><Link to="/about" className="hover:text-hunic-cyan transition-colors">About Us</Link></li>
-              <li><Link to="/portfolio" className="hover:text-hunic-cyan transition-colors">Portfolio</Link></li>
-              <li><Link to="/testimonials" className="hover:text-hunic-cyan transition-colors">Testimonials</Link></li>
+              {/* <li><Link to="/portfolio" className="hover:text-hunic-cyan transition-colors">Portfolio</Link></li> */}
+              {/* <li><Link to="/testimonials" className="hover:text-hunic-cyan transition-colors">Testimonials</Link></li> */}
               <li><Link to="/contact" className="hover:text-hunic-cyan transition-colors">Careers</Link></li>
             </ul>
           </div>
