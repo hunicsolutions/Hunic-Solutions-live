@@ -4,132 +4,84 @@ export const services: ServiceData[] = [
   {
     id: 'website-development',
     title: 'Website Development',
-    shortDescription: 'High-performance, SEO-optimized websites tailored for growth.',
-    fullDescription: 'We build more than just websites; we create digital experiences that drive conversions. Our development process merges aesthetic excellence with rigid technical performance standards to ensure your brand stands out in a crowded digital landscape.',
+    shortDescription: 'Professional, mobile-responsive websites built for your business.',
+    fullDescription: 'We create beautiful, fast-loading websites that work flawlessly on all devices. From simple business sites to complex e-commerce platforms, we build professional web presences that help you connect with customers and grow your business online.',
     heroImage: 'https://picsum.photos/id/1/1200/600',
     painPoints: [
-      'Slow loading speeds driving customers away',
-      'Outdated designs that hurt brand credibility',
-      'Poor mobile responsiveness',
-      'Complex CMS that is hard to manage'
+      'Need a professional online presence',
+      'Current website looks outdated',
+      'Website doesn\'t work well on mobile',
+      'Difficult to update content yourself'
     ],
     features: [
-      'Responsive, Mobile-First Design',
-      'SEO-Optimized Architecture',
-      'Custom Headless CMS Integration',
-      'Interactive WebGL Elements'
+      'Mobile-Responsive Design',
+      'Fast Loading Speeds',
+      'Easy Content Management',
+      'Contact Forms & Integration'
     ],
-    techStack: ['React', 'Next.js', 'Tailwind CSS', 'TypeScript', 'Node.js'],
+    techStack: ['React', 'Next.js', 'Tailwind CSS', 'TypeScript'],
     benefits: [
-      'Increase conversion rates by up to 40%',
-      'Lightning fast page loads under 1 second',
-      'Full ownership of your code and assets'
+      'Professional online presence',
+      'Works perfectly on all devices',
+      'Easy to update and maintain'
     ],
-    industries: ['E-commerce', 'Professional Services', 'Startups']
+    industries: ['Small Business', 'Contractors', 'Professional Services', 'Retail']
+  },
+  {
+    id: 'seo-services',
+    title: 'SEO & Digital Marketing',
+    shortDescription: 'Get found online with comprehensive SEO services.',
+    fullDescription: 'Search Engine Optimization helps your business show up when customers search for your services. We optimize your website, manage your online presence, create content, and track your rankings so you can attract more customers organically.',
+    heroImage: 'https://picsum.photos/id/2/1200/600',
+    painPoints: [
+      'Not showing up in Google searches',
+      'Competitors ranking higher than you',
+      'Not getting enough website traffic',
+      'Unsure how to improve online visibility'
+    ],
+    features: [
+      'Google Business Profile Management',
+      'Keyword Research & Optimization',
+      'Monthly Blog Posts',
+      'Social Media Marketing',
+      'Review Management',
+      'Analytics & Reporting'
+    ],
+    techStack: ['Google Analytics', 'Google Search Console', 'SEMrush', 'Social Media'],
+    benefits: [
+      'Increase website traffic',
+      'Rank higher in search results',
+      'Attract more qualified leads'
+    ],
+    industries: ['Local Business', 'E-commerce', 'Services', 'Healthcare']
   },
   {
     id: 'hosting-maintenance',
-    title: 'Hosting & Maintenance',
-    shortDescription: 'Secure, scalable hosting with 24/7 proactive monitoring.',
-    fullDescription: 'Stop worrying about server downtime, security patches, or backups. Hunic Solutions provides enterprise-grade infrastructure management so you can focus on running your business while we keep your digital assets secure and online.',
-    heroImage: 'https://picsum.photos/id/2/1200/600',
-    painPoints: [
-      'Frequent downtime and server crashes',
-      'Security vulnerabilities and hack fears',
-      'Slow API response times',
-      'Lack of technical support when things break'
-    ],
-    features: [
-      '99.99% Uptime SLA',
-      'Daily Automated Backups',
-      'DDoS Protection & WAF',
-      '24/7 Performance Monitoring'
-    ],
-    techStack: ['AWS', 'Docker', 'Kubernetes', 'Cloudflare', 'Redis'],
-    benefits: [
-      'Peace of mind with enterprise security',
-      'Scale instantly during traffic spikes',
-      'Predictable monthly costs'
-    ],
-    industries: ['SaaS', 'Healthcare', 'Finance']
-  },
-  {
-    id: 'data-integrations',
-    title: 'Data Integrations & API',
-    shortDescription: 'Seamlessly connect your disparate software systems.',
-    fullDescription: 'Data silos slow down decision-making. We architect robust API gateways and data pipelines that allow your CRM, ERP, and custom apps to talk to each other in real-time, creating a unified source of truth for your organization.',
+    title: 'Website Hosting & Maintenance',
+    shortDescription: 'Reliable hosting with professional support and maintenance.',
+    fullDescription: 'Keep your website running smoothly with our hosting and maintenance packages. We handle all the technical details including security updates, backups, uptime monitoring, and email setup so you can focus on your business.',
     heroImage: 'https://picsum.photos/id/60/1200/600',
     painPoints: [
-      'Manual data entry errors',
-      'Disconnected software systems',
-      'Lack of real-time business insights',
-      'Inefficient workflows due to data toggling'
+      'Website down or loading slowly',
+      'Security concerns and hacking',
+      'Need professional email addresses',
+      'Don\'t know who to call when problems arise'
     ],
     features: [
-      'Custom REST & GraphQL API Development',
-      'Legacy System Modernization',
-      'Real-time Webhook Implementation',
-      'Secure OAuth2 Authentication'
+      'Fast, Secure Hosting',
+      'Daily Automated Backups',
+      'Professional Email Setup',
+      'Security Monitoring',
+      'Monthly Maintenance & Updates',
+      'Priority Support'
     ],
-    techStack: ['Python', 'GraphQL', 'PostgreSQL', 'Apache Kafka', 'Azure'],
+    techStack: ['Cloudflare', 'AWS', 'cPanel', 'SSL Certificates'],
     benefits: [
-      'Automate 90% of manual data transfer',
-      'Reduce operational errors',
-      'Real-time reporting dashboards'
+      'Peace of mind your site is secure',
+      'Fast, reliable performance',
+      'Professional support when you need it'
     ],
-    industries: ['Logistics', 'Manufacturing', 'FinTech']
-  },
-  {
-    id: 'custom-software',
-    title: 'Custom Software Solutions',
-    shortDescription: 'Tailor-made software to solve complex business problems.',
-    fullDescription: 'Off-the-shelf software rarely fits perfectly. Hunic Solutions engineers bespoke platforms designed specifically for your operational workflows, giving you a competitive advantage that cannot be bought in a box.',
-    heroImage: 'https://picsum.photos/id/20/1200/600',
-    painPoints: [
-      'Existing tools lack critical features',
-      'Paying for bloated software you don\'t use',
-      'Inability to scale processes',
-      'Vendor lock-in constraints'
-    ],
-    features: [
-      'Full-Cycle SDLC Management',
-      'Scalable Microservices Architecture',
-      'Cross-Platform Compatibility',
-      'Enterprise-Grade Security'
-    ],
-    techStack: ['Java', '.NET Core', 'React Native', 'MongoDB', 'Go'],
-    benefits: [
-      'Own your intellectual property',
-      'Workflow efficiency gains of 50%+',
-      'Scales with your business growth'
-    ],
-    industries: ['Healthcare', 'Education', 'Real Estate']
-  },
-  {
-    id: 'web-apps',
-    title: 'Web Application Development',
-    shortDescription: 'Powerful, desktop-class applications running in the browser.',
-    fullDescription: 'We build Progressive Web Apps (PWAs) and Single Page Applications (SPAs) that offer the interactivity and performance of native desktop software, accessible from anywhere in the world without installation.',
-    heroImage: 'https://picsum.photos/id/48/1200/600',
-    painPoints: [
-      'Users refusing to install mobile apps',
-      'Inconsistent experience across devices',
-      'High maintenance costs of native apps',
-      'Slow rollout of feature updates'
-    ],
-    features: [
-      'Offline Functionality (PWA)',
-      'Real-time Collaboration Tools',
-      'Push Notifications',
-      'Hardware Acceleration'
-    ],
-    techStack: ['Vue.js', 'React', 'Firebase', 'WebSockets', 'IndexedDB'],
-    benefits: [
-      'Reduce development costs by targeting one platform',
-      'Instant updates for all users',
-      'Higher user retention rates'
-    ],
-    industries: ['Social Media', 'Productivity Tools', 'Entertainment']
+    industries: ['All Business Types']
   }
 ];
 

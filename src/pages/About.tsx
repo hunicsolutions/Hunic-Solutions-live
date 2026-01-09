@@ -9,22 +9,22 @@ const About: React.FC = () => {
     <div className="bg-hunic-dark min-h-screen">
       <SEO 
         title="About Us"
-        description="A collective of engineers, designers, and strategists dedicated to digital perfection. Learn about Hunic Solutions' mission and team."
-        keywords="about hunic solutions, software development team, technology partner, digital innovation"
+        description="Hunic Solutions is a web development company dedicated to helping small businesses succeed online with professional websites, SEO, and reliable hosting."
+        keywords="about hunic solutions, web development company, small business websites, local web developer"
         canonicalUrl="https://hunicsolutions.com/about"
       />
       <WebPageSchema 
         name="About Hunic Solutions"
-        description="Founded in 2018, Hunic Solutions is a technology partner that prioritizes code quality, security, and long-term scalability."
+        description="Hunic Solutions helps small businesses establish and grow their online presence with professional website development and digital marketing."
         url="https://hunicsolutions.com/about"
       />
       
       {/* Header */}
       <section className="py-20 bg-gradient-to-b from-gray-900 to-hunic-dark border-b border-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl font-bold mb-6 text-white tracking-tight">Who We Are</h1>
+          <h1 className="text-5xl font-bold mb-6 text-white tracking-tight">About Us</h1>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-            A collective of engineers, designers, and strategists dedicated to digital perfection.
+            Helping small businesses succeed online with professional websites and digital marketing.
           </p>
         </div>
       </section>
@@ -34,12 +34,12 @@ const About: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div className="prose prose-invert prose-lg">
-              <h2 className="text-3xl font-bold text-white mb-6">Our Story</h2>
+              <h2 className="text-3xl font-bold text-white mb-6">Our Mission</h2>
               <p className="text-gray-400">
-                Founded in 2018, Hunic Solutions emerged from a frustration with "good enough" software. We saw businesses struggling with bloated templates, insecure plugins, and disconnected data systems.
+                At Hunic Solutions, we believe every small business deserves a professional online presence. We're passionate about helping local businesses compete in the digital marketplace with affordable, high-quality websites and effective SEO strategies.
               </p>
               <p className="text-gray-400 mt-4">
-                We set out to build a different kind of technology partner—one that prioritizes code quality, security, and long-term scalability over quick fixes. Today, we serve clients ranging from agile startups to established enterprises, helping them navigate the complex digital landscape with confidence.
+                Unlike big agencies that treat you like a number, we provide personalized service and build lasting relationships with our clients. Your success is our success, and we're committed to helping you grow.
               </p>
             </div>
             <div className="relative h-80 w-full bg-gray-800 clip-corner overflow-hidden border border-gray-700">
@@ -56,17 +56,17 @@ const About: React.FC = () => {
             <div className="p-8 bg-hunic-card border border-gray-800 hover:border-hunic-cyan transition-colors">
               <Target className="w-10 h-10 text-hunic-cyan mb-4" />
               <h3 className="text-xl font-bold mb-2">Our Mission</h3>
-              <p className="text-gray-400 text-sm">To empower organizations through robust, scalable, and intuitive technology solutions that drive measurable growth.</p>
+              <p className="text-gray-400 text-sm">To help small businesses thrive online with professional websites and effective digital marketing.</p>
             </div>
             <div className="p-8 bg-hunic-card border border-gray-800 hover:border-hunic-cyan transition-colors">
               <Eye className="w-10 h-10 text-hunic-cyan mb-4" />
               <h3 className="text-xl font-bold mb-2">Our Vision</h3>
-              <p className="text-gray-400 text-sm">A digital world where software is seamless, secure, and accessible to businesses of all sizes.</p>
+              <p className="text-gray-400 text-sm">Every business, regardless of size, having access to quality web development and digital marketing services.</p>
             </div>
             <div className="p-8 bg-hunic-card border border-gray-800 hover:border-hunic-cyan transition-colors">
               <Heart className="w-10 h-10 text-hunic-cyan mb-4" />
               <h3 className="text-xl font-bold mb-2">Our Values</h3>
-              <p className="text-gray-400 text-sm">Transparency in code, integrity in business, and relentless innovation in every project we touch.</p>
+              <p className="text-gray-400 text-sm">Transparency, quality craftsmanship, and building long-term relationships with our clients.</p>
             </div>
           </div>
         </div>

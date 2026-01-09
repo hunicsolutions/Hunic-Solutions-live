@@ -1,20 +1,6 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Hunic Solutions
 
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/drive/19aGS8kUfAd82eUlpqDl3xU3_IxVcQv0A
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## TODO
+- Create flyer portion explaining $1000 to start and: 
+   - $50/month includes: website hosting and email address included and working contact page form. All set up with SEO keywords and such along with 1 hour of web dev work if necessary.
+   - $100/month includes all above along with Lite SEO (Facebook post 1/month, Google Business Profile post 1/month, blog post on website 1/month, Review management [just replying to reviews], and Rybbit analytics) 

@@ -96,17 +96,16 @@ const Footer: React.FC = () => {
               <span className="text-xl font-bold tracking-tighter text-white">HUNIC<span className="text-hunic-cyan">.</span></span>
             </div>
             <p className="text-sm leading-relaxed">
-              Forging the future of digital business with high-performance software, AI integration, and strategic innovation.
+              Helping small businesses succeed online with professional website development, SEO, and reliable hosting services.
             </p>
           </div>
           
           <div>
             <h3 className="text-white font-bold uppercase tracking-widest mb-6 text-sm">Services</h3>
             <ul className="space-y-3 text-sm">
-              <li><Link to="/services/website-development" className="hover:text-hunic-cyan transition-colors">Web Development</Link></li>
-              <li><Link to="/services/custom-software" className="hover:text-hunic-cyan transition-colors">Custom Software</Link></li>
-              <li><Link to="/services/ai-automation" className="hover:text-hunic-cyan transition-colors">AI & Automation</Link></li>
-              <li><Link to="/services/data-integrations" className="hover:text-hunic-cyan transition-colors">API Integration</Link></li>
+              <li><Link to="/services/website-development" className="hover:text-hunic-cyan transition-colors">Website Development</Link></li>
+              <li><Link to="/services/seo-services" className="hover:text-hunic-cyan transition-colors">SEO & Marketing</Link></li>
+              <li><Link to="/services/hosting-maintenance" className="hover:text-hunic-cyan transition-colors">Hosting & Maintenance</Link></li>
             </ul>
           </div>
 
